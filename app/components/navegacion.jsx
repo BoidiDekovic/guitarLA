@@ -7,8 +7,8 @@ function Navegacion() {
   return (
     <nav className="navegacion">
         <Link
-                to="/_index"
-                className={location.pathname === '/_index' ? 'active' : ''}
+                to="/"
+                className={location.pathname === '/index' ? 'active' : ''}
         >Inicio</Link>
         <Link
                 to="/nosotros"
